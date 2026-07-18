@@ -1,0 +1,60 @@
+/* Reinicio básico para mantener consistencia */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo de base del sitio */
+html {
+  font-size: 62.5%; /* 1rem = 10px para facilitar cálculos */
+}
+
+/* Estilo general del cuerpo del sitio */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Encabezados del sitio */
+header {
+  background-color: #ffffff;
+  border-bottom: 0.1rem solid #ddd;
+  padding: 1.5rem;
+}
+
+/* Navegación básica usando Flexbox */
+nav {
+  display: flex;
+  gap: 2rem;
+}
+
+/* Estilos para los enlaces del menú */
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+/* Pie de página estándar */
+footer {
+  text-align: center;
+  padding: 2rem;
+  margin-top: 4rem;
+  font-size: 1.4rem;
+  color: #555;
+}
+
+/* ===== HERO PRINCIPAL ===== */
+/* Contenedor general del hero */
+.hero-contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 110rem;
+  margin: 0 auto;
+  padding: 6rem 2rem;
+  gap: 4rem;
+}
