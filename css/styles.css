@@ -58,3 +58,31 @@ footer {
   padding: 6rem 2rem;
   gap: 4rem;
 }
+
+/* Columna izquierda: texto */
+.hero-texto h1{
+  font-size: 3.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-texto h2{
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.hero-texto p{
+  font-size: 1.8rem;
+  margin-bottom: 1.6rem;
+  max-width: 50rem;
+}
+
+/* Column derecha: imagen */
+.hero-imagen img{
+  width: 200rem;
+  border-radius: 50%;
+  border: 0.3rem solid #ddd
+  object-fit: cover;
+}
+
+
