@@ -85,4 +85,46 @@ footer {
   object-fit: cover;
 }
 
+/* ===== SECCIÓN SOBRE MÍ ===== */
+.sobre-contenedor{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 110rem;
+  margin: 0 auto;
+  padding: 6rem 2rem;
+  gap: 4rem;
+}
+
+/* Imagen de la sección */
+.sobre-imagen img{
+  width: 46rem;
+  border-radius: 1rem;
+  object-fit: cover;
+  border: 0.3rem solid #ddd;
+}
+
+/* Texto descriptivo */
+.sobre-texto h2{
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.sobre-texto p{
+  font-size: 1.8rem;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+  max-width: 60rem;
+}
+
+.sobre-texto h3{
+    font-size: 2.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.sobre-texto ul{
+  font-size: 1.6rem;
+  margin-left: 2rem;
+  line-height: 2.4rem;
+}
 
