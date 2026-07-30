@@ -184,3 +184,78 @@ footer {
   transform: translateY(-0.5rem); /* Efecto de elevación sutíl */
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
+
+/* ===== SECCIÓN CONTACTO ===== */
+.contacto-contenedor{
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 6rem 2rem;
+}
+
+/* TÍTULO */
+.contacto-contenedor h2{
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+/* PÁRRAFO INTRODUCTORIO */
+.contacto-contenedor p{
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+  line-height: 1.6;
+}
+
+/* FORMULARIO GENERAL */
+.contacto-formulario{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.campo-form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* ETIQUETAS */
+.campo-form label{
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+/* IMPUTS Y TEXAREA */
+.campo-form input,
+.campo-form textarea{
+  padding: 1.5rem;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  font-family: inherit;
+}
+
+/* INPUT FOCUS */
+.campo-form input:focus,
+.campo-form textarea:focus{
+  border-color: #0073e6;
+  outline: none;
+}
+
+/* BOTÓN DE ENVIAR */
+button[type="submit"]{
+  background-color: #0073e6;
+  color: #ffffff;
+  padding: 1.5rem 2rem;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  align-self: flex-start;
+  transition: background 0.2s ease;
+}
+
+/* HOVER DEL BOTÓN */
+button[type="submit"]:hover{
+  background-color: #005bb5;
+}
