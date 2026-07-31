@@ -259,3 +259,62 @@ button[type="submit"]{
 button[type="submit"]:hover{
   background-color: #005bb5;
 }
+
+/* ===== FOOTER PROFESIONAL ===== */
+footer{
+  background-color: #111;
+  padding: 3rem 2rem;
+  color: #eee;
+}
+
+/* Contenedor principal del footer */
+.footer-contenedor{
+  display: flex;
+  justify-content: space-between;
+  max-width: 110rem;
+  align-items: center;
+  margin: 0 auto;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Columna de  derechos */
+.footer-derechos{
+  font-size: 1.4rem;
+  color: #bbb;
+}
+
+/* Enlaces del footer (centrales) */
+.footer-enlaces{
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-enlaces a{
+  font-size: 1.6rem;
+  color: #eee;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+/* Hover tradicional */
+.footer-enlaces a:hover{
+  color: #00aaff;
+}
+
+/* Columna  de redes sociales */
+.footer-redes{
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-redes a{
+  font-size: 1.6rem;
+  color: #eee;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-redes a:hover{
+  color: #00aaff;
+}
