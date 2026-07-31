@@ -318,3 +318,85 @@ footer{
 .footer-redes a:hover{
   color: #00aaff;
 }
+
+/* =======================================================
+  DISEÑO RESPONSIVO (MEDIA QUERIES)
+  ======================================================== */
+
+/* =========== TABLETS (pantallas medianas) =========== */
+/* max width: 76.8rem equivale a 768px aprox */
+@media (max-width: 76.8rem){
+  /* HERO: Columnas más juntas y texto centrado */
+  .hero-contenedor{
+    gap: 2rem;
+  }
+
+  .hero-texto h1{
+    font-size: 3rem;
+  }
+
+  .hero-texto h2{
+    font-size: 2rem;
+  }
+
+  .hero-imagen img{
+    width: 56rem;
+  }
+
+  /* SOBRE MÍ: columnas más compactas */
+  .sobre-contenedor{
+    gap: 2rem;
+  }
+  
+  /* PROYECTOS: 2 columnas en tablet */
+  .proyecto-tarjeta{
+    width: calc(50% - 3rem); /* 2 tarjetas por fila */
+  }
+}
+
+/* =========== MÓVILES (pantallas pequeñas) =========== */
+/* max width: 48rem equivale a 480px aprox */
+@media (max-width: 48rem){
+  /* HERO: En una sola columna */
+  .hero-contenedor{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-texto p{
+    margin: 0 auto;
+  }
+
+  .hero-imagen img{
+    width: 36rem;
+  }
+
+  /* SOBRE MÍ: columnas más compactas */
+  .sobre-contenedor{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sobre-texto p{
+    margin: 0 auto;
+  }
+  
+  .sobre-imagen img{
+    width: 100%;
+  }
+  /* PROYECTOS: 1 columnas en móviles */
+  .proyecto-tarjeta{
+    width: 100% /* 1 tarjeta por fila */
+  }
+
+  .contacto-formulario{
+    gap: 1.5rem;
+  }
+
+  /* FOOTER: columnas verticales */
+  .footer-contenedor{
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+}
