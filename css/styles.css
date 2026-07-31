@@ -81,7 +81,7 @@ footer {
 .hero-imagen img{
   width: 200rem;
   border-radius: 50%;
-  border: 0.3rem solid #ddd
+  border: 0.3rem solid #ddd;
   object-fit: cover;
 }
 
